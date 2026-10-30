@@ -95,7 +95,7 @@ export default function TableData() {
           <input
             type="text"
             name="name"
-            className="input validator"
+            className=" input "
             placeholder="Name"
             value={formData.name}
             onChange={handleChange}
@@ -108,7 +108,7 @@ export default function TableData() {
           <input
             type="text"
             name="city"
-            className="input validator"
+            className=" input "
             placeholder="City"
             value={formData.city}
             onChange={handleChange}
@@ -121,7 +121,7 @@ export default function TableData() {
           <input
             type="text"
             name="street"
-            className="input validator"
+            className=" input "
             placeholder="Street"
             value={formData.street}
             onChange={handleChange}
@@ -134,7 +134,7 @@ export default function TableData() {
           <input
             type="text"
             name="suite"
-            className="input validator"
+            className=" input "
             placeholder="Suite"
             value={formData.suite}
             onChange={handleChange}
